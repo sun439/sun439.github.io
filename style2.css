@@ -1,0 +1,10 @@
+body{
+   background-color: #F4B7CB; 
+}
+.clicka{
+   list-style: none;
+    display: flex;
+   background-color: white;
+   color: black;
+   width: 10%;
+}

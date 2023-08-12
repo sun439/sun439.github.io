@@ -1,0 +1,113 @@
+/*En CSS los selectores se utilizan para delimitar los elementos 
+HTML de nuestra página web a los que queremos aplicar estilo. */
+header{
+    background-color: #4b8dcb;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+header ul li{
+    margin: 20px;
+}
+
+img{ /* selector de etiqueta */
+    /*width: 392px;*/
+    width: 50%;
+}
+.conecta{
+    display: flex;
+    justify-content: center;
+}
+.conecta p{
+    color: #4e9ae6;;
+}
+
+.asambleaa{
+    display: flex;
+    justify-content: center;
+}
+.asambleaa img{
+    width: 70%;
+}
+
+h1{
+    color: #0092ca;
+}
+p{
+    font-size: 24px;
+    color: rgb(250, 250, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+    font-size: 24px;
+    color: #0092ca;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* Selector de clase, diferencia los definimos nosotros
+    se llaman con el .nombredelselector el punto es la 
+    referencia de la clase*/
+
+
+.contenedor2{
+    display: flex; /* Los elementos que hay dentro de este contenedor van a hacer flexibles, le voy a poder dar las posiciones y el posicionamiento que yo quiera*/
+    flex-direction: row; /* propiedades de flex para el posicionamiento*/
+    width: 100%;
+}
+.contenedor2 p{
+    color: #0365ca;;
+}
+.contenedor3{
+    display: flex; /* La propiedad Display la usamos para darle un comportamiento al DIV*/
+    flex-direction: column; 
+    width: 100%;
+    background-color: rgb(18, 48, 93);
+}
+.contenedor4{
+    display: flex; /*, si quisiéramos ocultarlo, tendríamos que asignar Diplay: none; y si quiéranos que los elementos dentro de la caja tengan un comportamiento flexible podríamos Display: flex;*/
+    flex-direction: row; 
+    width: 100%;
+    margin: 0 0 10px 0; /* top right buttom left*/
+    background-color: rgb(18, 48, 93);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex; /*elementos que nos brinda flex flex-direction, flex-flow, justify-content, align-items, align-content */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    width: 92px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: pink;
+}
+
+.clicka{
+    list-style: none;
+     display: flex;
+    background-color: white;
+    color: black;
+    width: 10%;
+ }
+

@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    
+}
+header img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-attachment: rgb(22, 167, 126);
+    
+}
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.clicka{
+    list-style: none;
+     display: flex;
+    background-color: white;
+    color: black;
+    width: 10%;
+ }
